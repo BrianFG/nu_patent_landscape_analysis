@@ -1,5 +1,5 @@
 version: '3'
-server-common:
+x-server-common:
   &server-common
   build: ./
   volumes:
