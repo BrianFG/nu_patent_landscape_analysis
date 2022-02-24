@@ -1,6 +1,7 @@
 version: '3'
 x-server-common:
   &server-common
+  platform: linux/amd64
   build: ./
   volumes:
     - ./src:/home/patents/src
